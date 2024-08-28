@@ -1,0 +1,14 @@
+id,nome_tabela,descricao
+1,Usuario,Tabela que armazena os dados dos usuários
+2,Historico,Tabela que armazena o histórico de viagens dos usuários
+3,Bonificacao,Tabela que armazena os pontos de bonificação dos usuários
+4,Login,Tabela que armazena as informações de login dos usuários
+5,Preferencias,Tabela que armazena as preferências de viagem dos usuários
+6,AdministradorSistema,Tabela que armazena as informações dos administradores do sistema
+7,Destino,Tabela que armazena os destinos turísticos
+8,Rota,Tabela que armazena as rotas de viagem
+9,MeioTransporte,Tabela que armazena os meios de transporte disponíveis
+10,Trajeto,Tabela que armazena os trajetos de viagem
+11,Restaurantes,Tabela que armazena as informações sobre os restaurantes
+12,AtracoesTuristicas,Tabela que armazena as atrações turísticas
+13,Hospedagem,Tabela que armazena as informações sobre a hospedagem
