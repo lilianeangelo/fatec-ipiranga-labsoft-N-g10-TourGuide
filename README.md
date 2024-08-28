@@ -1,2 +1,10 @@
 # fatec-ipiranga-labsoft-N-g10-TourGuide
-Repositório do TCC
+Repositório do TCC 
+
+Integrantes:
+
+GABRIEL OLIVEIRA NARCISO SILVA 
+JONATHAN DA SILVA LINS 
+KALANI SAMPAIO DA SILVA 
+LILIANE ANGELO MARTINS 
+VITOR VILAÇA DA SILVA 
