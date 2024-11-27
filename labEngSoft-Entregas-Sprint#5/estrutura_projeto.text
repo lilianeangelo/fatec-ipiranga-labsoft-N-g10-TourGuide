@@ -1,3 +1,7 @@
+
+PARA BAIXAR IMAGEM DOCKER: docker pull lilianeangelomartins/tourguide:latest
+
+
 tourguide/
 ├── backend/                      # Backend do sistema
 │   ├── config/                   # Configurações do sistema (db, middleware, etc.)
