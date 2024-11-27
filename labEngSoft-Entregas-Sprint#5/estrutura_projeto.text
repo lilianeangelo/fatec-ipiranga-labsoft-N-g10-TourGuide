@@ -1,0 +1,58 @@
+tourguide/
+├── backend/                      # Backend do sistema
+│   ├── config/                   # Configurações do sistema (db, middleware, etc.)
+│   │   ├── db/                   # Configuração do banco de dados (Sequelize, conexão)
+│   │   │   └── index.js          # Configuração geral de conexão com o PostgreSQL
+│   │   ├── firebase/             # Configuração do Firebase
+│   │   │   └── firebase-config.js
+│   │   └── middleware/           # Middleware para autenticação e outros
+│   │       └── authMiddleware.js
+│   ├── controllers/              # Controladores das rotas
+│   │   ├── preferenciaController.js
+│   │   ├── userController.js
+│   │   ├── authController.js     # Lógica de autenticação e gerenciamento de usuários
+│   │   ├── rotaController.js     # Controlador para manipulação de rotas
+│   │   ├── trajetoController.js  # Controlador para manipulação de trajetos
+│   │   ├── destinoController.js  # Controlador para manipulação de destinos
+│   │   └── transporteController.js # Controlador para manipulação de meios de transporte
+│   ├── models/                   # Modelos do banco de dados
+│   │   ├── preferencia.js        # Modelo de preferências
+│   │   ├── user.js               # Modelo de usuário
+│   │   ├── rota.js               # Modelo de rotas
+│   │   ├── trajeto.js            # Modelo de trajetos
+│   │   ├── destino.js            # Modelo de destinos
+│   │   └── transporte.js         # Modelo de meios de transporte
+│   ├── routes/                   # Definição das rotas da API
+│   │   ├── preferenciaRoutes.js
+│   │   ├── userRoutes.js
+│   │   ├── authRoutes.js
+│   │   ├── rotaRoutes.js         # Rotas para rotas
+│   │   ├── trajetoRoutes.js      # Rotas para trajetos
+│   │   ├── destinoRoutes.js      # Rotas para destinos
+│   │   └── transporteRoutes.js   # Rotas para meios de transporte
+│   ├── services/                 # Lógica de negócio
+│   │   ├── preferenciaService.js
+│   │   ├── userService.js
+│   │   ├── rotaService.js        # Lógica de negócio para rotas
+│   │   ├── trajetoService.js     # Lógica de negócio para trajetos
+│   │   ├── destinoService.js     # Lógica de negócio para destinos
+│   │   └── transporteService.js  # Lógica de negócio para meios de transporte
+│   ├── .env                      # Variáveis de ambiente
+│   ├── app.js                    # Configuração principal do Express
+│   ├── server.js                 # Inicialização do servidor
+│   ├── Dockerfile                # Dockerfile para a aplicação backend
+│   └── package.json              # Dependências e scripts
+├── frontend/                     # Frontend do sistema (React)
+│   ├── src/                      # Código-fonte da aplicação React
+│   │   ├── components/           # Componentes reutilizáveis
+│   │   ├── pages/                # Páginas da aplicação
+│   │   ├── services/             # Lógica de chamadas à API
+│   │   ├── App.js                # Componente principal
+│   │   ├── index.js              # Ponto de entrada
+│   │   └── firebase.js           # Configuração do Firebase para autenticação
+│   ├── .env                      # Variáveis de ambiente específicas do frontend
+│   ├── Dockerfile                # Dockerfile para a aplicação frontend
+│   ├── package.json              # Dependências e scripts
+│   └── README.md                 # Documentação do frontend
+├── docker-compose.yml            # Arquivo de configuração para Docker Compose
+└── README.md                     # Documentação do projeto
