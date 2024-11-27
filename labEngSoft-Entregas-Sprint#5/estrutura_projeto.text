@@ -1,6 +1,10 @@
 
-PARA BAIXAR IMAGEM DOCKER: docker pull lilianeangelomartins/tourguide:latest
+PARA BAIXAR IMAGEM DOCKER: 
+docker login
+docker pull lilianeangelomartins/tourguide:latest
 
+
+#### Estrutura do projeto
 
 tourguide/
 ├── backend/                      # Backend do sistema
@@ -59,4 +63,5 @@ tourguide/
 │   ├── package.json              # Dependências e scripts
 │   └── README.md                 # Documentação do frontend
 ├── docker-compose.yml            # Arquivo de configuração para Docker Compose
+|__ Dockerfile                    # Dockerfile da aplicação front/back
 └── README.md                     # Documentação do projeto
